@@ -11,22 +11,8 @@ layers:
     - Y
     - {t: '''', s: '"'}
   - [A, R, S, T, G, M, N, E, I, O]
-  - - Z
-    - X
-    - C
-    - D
-    - V
-    - K
-    - H
-    - {t: ',', s: ;}
-    - {t: ., s: ':'}
-    - {t: '?', s: '!'}
-  - - ⌘
-    - num
-    - {t: ⇧, s: ⇪}
-    - SPACE
-    - nav
-    - {t: BACKSPACE, s: Alt+ BACKSPACE}
+  - [Z, X, C, D, V, K, H, '&comma_semi', '&dot_colon', '&qmrk_excl']
+  - [⌘, num, '&smart_shft', SPACE, nav, '&super_bspc']
   qwerty:
   - [Q, W, E, R, T, Y, U, I, O, P]
   - - A
@@ -72,7 +58,7 @@ layers:
     - {t: '[', s: '{'}
     - {t: ']', s: '}'}
     - '>'
-    - {t: /, s: \}
+    - '&slh_morph'
     - '1'
     - '2'
     - '3'
@@ -93,7 +79,7 @@ layers:
     - HOME
     - END
     - ↹
-    - {t: BACKSPACE, s: Alt+ BACKSPACE}
+    - '&super_bspc'
   - - {t: ⇧, h: sticky}
     - {t: ⌃, h: sticky}
     - {t: ⎇, h: sticky}
