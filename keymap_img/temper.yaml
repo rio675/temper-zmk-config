@@ -29,7 +29,7 @@ layers:
     - M
     - {t: ',', h: ⎇, s: <}
     - {t: ., h: RCMD}
-    - {t: SLAS, h: ⌃}
+    - {t: /, h: ⌃, s: '?'}
   - - {t: ⎋, h: symbol}
     - ↹
     - {t: SPACE, h: f_keys}
