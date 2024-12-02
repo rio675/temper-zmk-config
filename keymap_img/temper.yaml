@@ -2,14 +2,14 @@ layers:
   base:
   - [Q, W, E, R, T, Y, U, I, O, P]
   - - {t: A, h: LEFT SHIFT}
-    - R
     - S
-    - T
+    - D
+    - F
     - G
-    - M
-    - N
-    - E
-    - I
+    - H
+    - J
+    - K
+    - L
     - {t: ;, h: RIGHT SHIFT, s: ':'}
   - - {t: Z, h: ⌃}
     - {t: X, h: LCMD}
