@@ -22,10 +22,10 @@ layers:
     - {t: ., s: '>'}
     - /
   - - {t: ⎋, h: symbol}
-    - {t: SPACE, h: f_keys}
     - ↹
-    - BACKSPACE
+    - {t: SPACE, h: f_keys}
     - {t: ENTER, h: number}
+    - BACKSPACE
     - {t: ▽, type: trans}
   number:
   - [Q, W, E, R, T, Y, U, I, O, P]
@@ -52,8 +52,8 @@ layers:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
     - {type: held}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   symbol:
   - - '~'
@@ -115,8 +115,8 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - {type: held}
     - {t: ▽, type: trans}
+    - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
