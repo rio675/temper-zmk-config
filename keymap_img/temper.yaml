@@ -22,10 +22,10 @@ layers:
     - {t: ., h: RCMD}
     - {t: /, h: ⌃, s: '?'}
   - - {t: ⎋, h: symbol}
-    - ↹
     - {t: SPACE, h: f_keys}
-    - {t: ENTER, h: number}
+    - ↹
     - BACKSPACE
+    - {t: ENTER, h: number}
     - {t: ▽, type: trans}
   number:
   - - {t: ▽, type: trans}
@@ -61,8 +61,8 @@ layers:
   - - CAPSLOCK
     - SPACE
     - {t: ▽, type: trans}
-    - {t: BACKSPACE, type: held}
-    - RET
+    - BACKSPACE
+    - {t: RET, type: held}
     - {t: ▽, type: trans}
   symbol:
   - [BT CLR, '@', '#', $, '%', ^, '&', (, ), KP ASTERISK]
@@ -124,8 +124,8 @@ layers:
     - ⌘
     - ⎇
   - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
     - {type: held}
+    - {t: ▽, type: trans}
     - DELETE
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
