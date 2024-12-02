@@ -11,7 +11,7 @@ layers:
     - K
     - L
     - {t: ;, h: RIGHT SHIFT, s: ':'}
-  - - {t: Z, h: ⌃}
+  - - Z
     - {t: X, h: LCMD}
     - {t: C, h: ⎇}
     - V
