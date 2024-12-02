@@ -18,15 +18,10 @@ layers:
     - V
     - K
     - H
-    - {t: ',', s: ;}
-    - {t: ., s: ':'}
+    - '&comma_semi'
+    - '&dot_colon'
     - {t: '?', s: '!'}
-  - - ⌘
-    - num
-    - {t: ⇧, s: ⇪}
-    - SPACE
-    - nav
-    - '&super_bspc'
+  - [⌘, num, '&smart_shft', SPACE, nav, '&super_bspc']
   qwerty:
   - [Q, W, E, R, T, Y, U, I, O, P]
   - - A
