@@ -48,26 +48,26 @@
                 number_layer {
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &kp Q         &kp W         &kp E         &kp R         &kp T              &kp Y        &kp U         &kp I         &kp O         &kp P   
+       &trans     &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0          &trans       &trans        &trans        &trans      &bootloader   
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        &kp A         &kp S         &kp D         &kp F         &kp G              &kp H        &kp J         &kp K         &kp L       &kp SEMI
+      &kp LSHFT   &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &kp MINUS       &kp LEFT_ARROW  &kp DOWN_ARROW &kp UP_ARROW &kp RIGHT_ARROW &kp RSHFT
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        &kp Z         &kp X         &kp C         &kp V         &kp B              &kp N        &kp M       &kp COMMA      &kp DOT      &kp FSLH
+      &kp LCTRL   &mt LWIN NUMBER_1 &mt LALT NUMBER_2 &kp NUMBER_3  &kp PLUS      &trans      &trans         &kp RALT     &kp RWIN      &kp RCTRL
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                    &trans        &trans        &trans             &trans       &trans        &trans
+                                 &kp CAPSLOCK    &kp SPACE     &trans         &kp BACKSPACE   &kp RET        &trans
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
                         >;
                 };
                 symbol_layer {
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-      &kp TILDE       &kp AT       &kp LBRC      &kp RBRC     &kp PRCNT          &kp STAR       &kp N7        &kp N8        &kp N9      &kp MINUS
+      &bt BT_CLR     &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET        &kp AMPS   &kp LPAR        &kp RPAR  &kp KP_ASTERISK  
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &kp CARET      &kp HASH      &kp LPAR      &kp RPAR      &kp DLLR         &kp UNDER       &kp N4        &kp N5        &kp N6      &kp PLUS
+       &trans     &bt BT_SEL 2   &bt BT_SEL 1  &bt BT_SEL 0    &trans          &kp UNDER        &kp EQUAL  &kp LBKT        &kp RBKT      &kp BSLH 
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &trans         &kp LT       &kp LBKT      &kp RBKT       &kp GT            &trans        &kp N1        &kp N2        &kp N3      &kp EQUAL
+     &out OUT_TOG    &trans        &trans        &trans        &trans         &kp SINGLE_QUOTE  &kp TILDE  &kp LBRC        &kp RBRC    &kp PIPE 
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                    &trans        &trans        &trans            &kp N0        &trans        &trans
+                                    &kp LGUI    &kp SPACE    &kp LEFT_ALT        &trans         &trans      &trans
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
                         >;
                 };
@@ -75,13 +75,13 @@
                 f_keys_layer {
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        &trans        &trans        &trans        &trans        &trans            &trans       &kp HOME      &kp END       &kp TAB     &trans
+     &bootloader     &kp F7       &kp F8          &kp F9        &kp F10           &trans        &trans        &trans       &trans        &trans
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &kp LSHFT     &kp LCTRL      &kp LALT      &kp LGUI      &kp TAB           &kp LEFT      &kp DOWN       &kp UP      &kp RIGHT       &gresc
+      &kp LSHFT      &kp F4       &kp F5          &kp F6        &kp F11           &trans        &trans        &trans       &trans        &kp RSHFT
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        &trans       &kp DEL        &trans        &trans        &trans            &trans        &kp RET       &trans        &trans        &trans
+     &kp LCTRL    &mt LWIN F1    &mt LALT F2      &kp F3        &kp F12           &trans        &trans       &kp RALT      &kp RGUI      &kp RALT 
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                    &trans        &trans        &trans            &trans        &trans        &trans
+                                    &trans        &trans         &trans         &kp DELETE      &trans        &trans
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
                         >;
                 };
