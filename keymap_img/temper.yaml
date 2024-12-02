@@ -10,17 +10,26 @@ layers:
     - U
     - Y
     - {t: '''', s: '"'}
-  - [A, R, S, T, G, M, N, E, I, O]
-  - - Z
-    - X
-    - C
-    - D
+  - - {t: A, h: LEFT SHIFT}
+    - R
+    - S
+    - T
+    - G
+    - M
+    - N
+    - E
+    - I
+    - {t: ;, h: RIGHT SHIFT, s: ':'}
+  - - {t: Z, h: ⌃}
+    - {t: X, h: LCMD}
+    - {t: C, h: ⎇}
     - V
-    - K
-    - H
-    - {t: ',', s: <}
-    - {t: ., s: '>'}
-    - /
+    - B
+    - N
+    - M
+    - {t: ',', h: ⎇, s: <}
+    - {t: ., h: RCMD}
+    - {t: SLAS, h: ⌃}
   - - {t: ⎋, h: symbol}
     - ↹
     - {t: SPACE, h: f_keys}
