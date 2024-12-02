@@ -12,7 +12,7 @@
 #define BASE 0
 #define NUMBER 1
 #define SYMBOL 2
-#define F_keys 3
+#define F_KEYS 3
 
 &lt {
     tapping-term-ms = <250>;
