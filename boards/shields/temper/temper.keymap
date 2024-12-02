@@ -16,13 +16,6 @@
 #define FUN 4
 
 / {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <NUM NAV>;
-            then-layer = <FUN>;
-        };
-    };
     behaviors {
         bspc_del: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
