@@ -17,12 +17,7 @@
 
 / {
     behaviors {
-        amps_morph: amps_morph {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp AMPS>, <&kp PIPE>;
-            mods = <(MOD_LSFT)>;
-        };
+
     };
 
         keymap {
