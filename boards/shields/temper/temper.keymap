@@ -16,9 +16,12 @@
 #define FUN 4
 
 / {
+    conditional_layers {
 
     };
+    behaviors {
 
+    };
         keymap {
                 compatible = "zmk,keymap";
 
