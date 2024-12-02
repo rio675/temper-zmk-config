@@ -15,11 +15,21 @@
 #define NAV 3
 #define FUN 4
 
+&lt {
+    tapping-term-ms = <250>;
+    flavor = "tap-preferred";
+    require-prior-idle-ms = <130>;
+    quick-tap-ms = <200>;
+};
+
+&mt {
+    tapping-term-ms = <250>;
+    flavor = "tap-preferred";
+    require-prior-idle-ms = <130>;
+    quick-tap-ms = <200>;
+};
+
 / {
-    behaviors {
-
-    };
-
         keymap {
                 compatible = "zmk,keymap";
 
