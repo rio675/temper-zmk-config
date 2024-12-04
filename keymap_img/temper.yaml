@@ -12,7 +12,7 @@ layers:
     - L
     - {t: ;, h: RIGHT SHIFT, s: ':'}
   - - {t: Z, h: ⌃}
-    - {t: X, h: LCMD}
+    - {t: X, h: LWIN}
     - {t: C, h: ⎇}
     - V
     - B
