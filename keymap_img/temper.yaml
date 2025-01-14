@@ -26,7 +26,7 @@ layers:
     - {t: SPACE, h: f_keys}
     - {t: ENTER, h: number}
     - BACKSPACE
-    - AC NEXT KEYBOARD LAYOUT SELECT
+    - {t: ▽, type: trans}
   number:
   - - {t: ▽, type: trans}
     - '7'
