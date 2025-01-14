@@ -26,7 +26,7 @@ layers:
     - {t: SPACE, h: f_keys}
     - {t: ENTER, h: number}
     - DELETE
-    - AC NEXT KEYBOARD LAYOUT SELECT
+    - Ctl+Sft+SPACE
   number:
   - - {t: ▽, type: trans}
     - '7'
