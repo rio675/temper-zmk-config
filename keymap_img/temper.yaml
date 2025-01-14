@@ -12,20 +12,20 @@ layers:
     - L
     - {t: ;, h: RIGHT SHIFT, s: ':'}
   - - {t: Z, h: ⌃}
-    - {t: X, h: LWIN}
-    - {t: C, h: ⎇}
+    - {t: X, h: ⎇}
+    - {t: C, h: LMETA}
     - V
     - B
     - N
     - M
-    - {t: ',', h: ⎇, s: <}
-    - {t: ., h: RCMD}
+    - {t: ',', h: RMETA, s: <}
+    - {t: ., h: ⎇}
     - {t: /, h: ⌃, s: '?'}
   - - {t: ⎋, h: symbol}
     - ↹
     - {t: SPACE, h: f_keys}
     - {t: ENTER, h: number}
-    - BACKSPACE
+    - DELETE
     - AC NEXT KEYBOARD LAYOUT SELECT
   number:
   - - {t: ▽, type: trans}
