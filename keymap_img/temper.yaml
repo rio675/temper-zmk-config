@@ -26,7 +26,7 @@ layers:
     - {t: SPACE, h: f_keys}
     - {t: ENTER, h: number}
     - DELETE
-    - GLOBE
+    - G
   number:
   - - {t: ▽, type: trans}
     - '7'
