@@ -127,5 +127,5 @@ layers:
     - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
-    - '&K_DELETE'
+    - DELETE
     - {t: ▽, type: trans}
