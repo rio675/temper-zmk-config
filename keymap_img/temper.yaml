@@ -12,8 +12,8 @@ layers:
     - L
     - {t: ;, h: RIGHT SHIFT, s: ':'}
   - - {t: Z, h: ⌃}
-    - {t: X, h: LWIN}
-    - {t: C, h: ⎇}
+    - {t: X, h: ⎇}
+    - {t: C, h: LEFT COMMAND}
     - V
     - B
     - N
@@ -25,8 +25,8 @@ layers:
     - ↹
     - {t: SPACE, h: f_keys}
     - {t: ENTER, h: number}
-    - BACKSPACE
-    - {t: ▽, type: trans}
+    - DELETE
+    - Ctl+SPACE
   number:
   - - {t: ▽, type: trans}
     - '7'
