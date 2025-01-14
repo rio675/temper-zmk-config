@@ -39,9 +39,9 @@
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
    &mt LEFT_SHIFT A  &kp S          &kp D         &kp F         &kp G             &kp H         &kp J         &kp K         &kp L     &mt RIGHT_SHIFT SEMI
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-   &mt LCTRL Z     &mt LWIN X     &mt LALT C    &kp V         &kp B             &kp N         &kp M     &mt RALT COMMA &mt RCMD PERIOD &mt RCTRL SLASH
+   &mt LCTRL Z     &mt LALT X   &mt LEFT_COMMAND C &kp V         &kp B             &kp N         &kp M     &mt RALT COMMA &mt RCMD PERIOD &mt RCTRL SLASH
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                 &lt 2 ESCAPE    &kp TAB     &lt 3 SPACE       &lt 1 ENTER  &kp BACKSPACE    &trans
+                                 &lt 2 ESCAPE    &kp TAB     &lt 3 SPACE       &lt 1 ENTER  　&kp DELETE   &kp LC(SPACE)
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
                         >;
                 };
