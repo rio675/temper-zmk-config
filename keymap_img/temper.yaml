@@ -25,7 +25,7 @@ layers:
     - ↹
     - {t: SPACE, h: f_keys}
     - {t: ENTER, h: number}
-    - BACKSPACE
+    - BSPC
     - AC NEXT KEYBOARD LAYOUT SELECT
   number:
   - - {t: ▽, type: trans}
@@ -62,7 +62,7 @@ layers:
     - {t: ▽, type: trans}
     - SPACE
     - {t: RET, type: held}
-    - BACKSPACE
+    - BSPC
     - {t: ▽, type: trans}
   symbol:
   - [BT CLR, '@', '#', $, '%', ^, '&', (, ), KP ASTERISK]
