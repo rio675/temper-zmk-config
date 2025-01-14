@@ -49,14 +49,14 @@ layers:
     - RIGHT ARROW
     - ⇧
   - - ⌃
-    - {t: '1', h: LWIN}
-    - {t: '2', h: ⎇}
+    - {t: '1', h: ⎇}
+    - {t: '2', h: LMETA}
     - '3'
     - +
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - RMETA
     - ⎇
-    - RWIN
     - ⌃
   - - CAPSLOCK
     - {t: ▽, type: trans}
@@ -114,18 +114,18 @@ layers:
     - {t: ▽, type: trans}
     - ⇧
   - - ⌃
-    - {t: F1, h: LWIN}
-    - {t: F2, h: ⎇}
+    - {t: F1, h: ⎇}
+    - {t: F2, h: LMETA}
     - F3
     - F12
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - RMETA
     - ⎇
-    - ⌘
-    - ⎇
+    - ⌃
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
-    - DELETE
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
