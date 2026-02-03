@@ -26,7 +26,7 @@ layers:
     - ↹
     - {t: SPACE, h: f_keys}
     - {t: ENTER, h: number}
-    - DELETE
+    - BACKSPACE
     - {t: ▽, type: trans}
   number:
   - - {t: ▽, type: trans}
@@ -63,7 +63,7 @@ layers:
     - {t: ▽, type: trans}
     - SPACE
     - {t: RET, type: held}
-    - BACKSPACE
+    - DELETE
     - {t: ▽, type: trans}
   symbol:
   - [BT CLR, '@', '#', $, '%', ^, '&', (, ), KP ASTERISK]
